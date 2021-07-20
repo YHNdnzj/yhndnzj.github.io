@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>YHNdnzj&#39;s Blog</title>
+  
+  <subtitle>Mike Yuan 的個人小站</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://yhndnzj.com/"/>
+  <updated>2020-12-12T16:40:13.000Z</updated>
+  <id>https://yhndnzj.com/</id>
+  
+  <author>
+    <name>Mike Yuan</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>8 年 Android 老用戶的 iPhone 12 體驗</title>
+    <link href="https://yhndnzj.com/2020/12/12/iphone-12-experience/"/>
+    <id>https://yhndnzj.com/2020/12/12/iphone-12-experience/</id>
+    <published>2020-12-12T16:40:13.000Z</published>
+    <updated>2020-12-12T16:40:13.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>自從二年級第一次接觸 Android 智能手機以來，我便毫不猶豫地「站隊」了 Android 陣營。雖然許多身邊的人都在用 iPhone，我卻堅持讓自己和父母不用 Apple 產品。結果，最先打破原則的，是一個月前的我（</p><span id="more"></span><h2 id="從-Android-到-iOS"><a href="#從-Android-到-iOS" class="headerlink" title="從 Android 到 iOS"></a>從 Android 到 iOS</h2><p>如《我的計算機折騰史》中提到的，我在小學便學會了刷機，隨後便一發不可收拾。每次買新手機，都要先看看能不能刷原生。刷完後，還要用 SuperSU、Xposed 等進行一番折騰，不亦樂乎。自動搶紅包等模組甚至吸引了親戚，讓我也幫他們安裝。然而，隨着 Google 逐年收緊權限，及 SuperSU、Xposed、CM 等一衆軟體的相繼停止維護（雖然有後繼者），我也漸漸失去了折騰的動力，新手機甚至沒有安裝 Magisk. 高中的繁忙讓我很少有時間折騰手機（話說好幾個月沒更新 Blog 了，也很少在 TG 發言（。同時，某些垃圾國產應用也使手機可用性不斷下降。這不禁使我產生了改變的想法。</p><p>兩個月前，Apple 發佈了 iPhone 12，迴歸垂直切角、相比當下主流 Android 設備小巧的外形都讓我眼前一亮。iOS 似乎也變得更加 user-friendly，同時能更好地限制國產應用。正好，我的 K20 Pro 也使用 1.5 年了。我便一時腦熱，下單了 iPhone 12。第二天，我便有些後悔，覺得換到 iOS 也許會使我難以適應，而且我的許多數據都在 Google Account 上，不知道同步是否方便。結果——</p><p>iPhone 12 真的還不錯！</p><h2 id="與-Android-的對比"><a href="#與-Android-的對比" class="headerlink" title="與 Android 的對比"></a>與 Android 的對比</h2><p>使用的一個月裏，我也發現了不少相對 Android 的優缺點及差異。</p><h3 id="優點"><a href="#優點" class="headerlink" title="優點"></a>優點</h3><table><thead><tr><th align="center">What</th><th align="left">Why</th></tr></thead><tbody><tr><td align="center">Google 帳戶同步</td><td align="left">這可能是我發現的第一個也是最令我驚喜的一個優點。在設定中登入後，聯絡人、Gmail、日曆等資料全部自動同步到了系統中，之前的擔心完全多餘。新的聯絡人也可保存在 Google 帳戶中，與 Android 設備無縫對接。</td></tr><tr><td align="center">Face ID</td><td align="left">不用刻意觸摸 Fingerprint Sensor 了。原先以爲黑暗中識別率會下降不少，結果完全無影響。</td></tr><tr><td align="center">語言</td><td align="left">可以爲各應用單獨設定語言，在 Android 上需要 Xposed 實現的功能居然內建在 iOS 中，無比方便。</td></tr><tr><td align="center">Taptic Engine</td><td align="left">手感超棒！</td></tr><tr><td align="center">權限管理</td><td align="left">不再有「不允許」就強制終止的應用，而且還能禁止應用聯網。</td></tr><tr><td align="center">續航</td><td align="left">不必多言。</td></tr></tbody></table><p>還有許多令人感受到用心的細節，比如閱讀應用會隨環境亮度切換背景顏色，配合 OLED 的純黑，半夜讀<del>魔法禁書目錄</del>書很舒適。</p><h3 id="缺點"><a href="#缺點" class="headerlink" title="缺點"></a>缺點</h3><p>雖然能感受到不少優點，缺點也依舊深刻。</p><table><thead><tr><th align="center">What</th><th align="left">Why</th></tr></thead><tbody><tr><td align="center">通知</td><td align="left">每當錯過訊息時，總是對 iOS 沒有通知圖標感到很不滿意。通知中心毫無存在感，每次都等到回到主屏幕時才發現有通知。更別說 Android 上方便的通知類別了<del>（國產應用都開始適配了，iOS 什麼時候纔有呢）</del>。</td></tr><tr><td align="center">勿擾模式</td><td align="left">和通知一樣沒有足夠詳盡的設定，不能對某類通知啓用白名單。</td></tr><tr><td align="center">「返回」</td><td align="left">操作邏輯紊亂。依照應用/界面不同，需要自行判斷要進行右滑、下滑或點擊左/右上角的按鈕，有時甚至操作無法與動畫對應。</td></tr><tr><td align="center">分屏</td><td align="left">……</td></tr><tr><td align="center">推送</td><td align="left">雖然統一推送確實解決了 Android 上時常收不到國產應用通知的問題，但點開通知後需要長時間等待應用（尤其是 TG）自行加載新訊息非常煩人。</td></tr><tr><td align="center">旋轉螢幕</td><td align="left">Android 上物理旋轉後彈出的的「一鍵旋轉並鎖定」按鈕對比 iOS 部分應用甚至無法鎖定在橫屏狀態……</td></tr><tr><td align="center">Safari</td><td align="left">切換至電腦版網站後竟然不能縮放。</td></tr><tr><td align="center">輸入法</td><td align="left">內建的輸入法不支援自然碼，好不容易纔找到一個好用的（iRime）。</td></tr><tr><td align="center">選擇文本</td><td align="left">定位困難，瀏覽器中選擇 URL 時甚至不能自由移動。</td></tr></tbody></table><hr><p>Well，看上去缺點比優點多。不過，在實際使用時，iOS 也沒那麼不堪。作爲 Android 8 年老用戶，短期內適應也沒有那麼難。只希望 Apple 能在保持優點的同時努力彌補缺點，說不定我也會成爲「iOS 8 年老用戶」呢？而 Google 嘛…<del>耗子尾汁</del>（x</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;自從二年級第一次接觸 Android 智能手機以來，我便毫不猶豫地「站隊」了 Android 陣營。雖然許多身邊的人都在用 iPhone，我卻堅持讓自己和父母不用 Apple 產品。結果，最先打破原則的，是一個月前的我（&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Real life" scheme="https://yhndnzj.com/tags/Real-life/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在 systemd-nspawn 上運行 Steam</title>
+    <link href="https://yhndnzj.com/2020/03/16/steam-on-systemd-nspawn/"/>
+    <id>https://yhndnzj.com/2020/03/16/steam-on-systemd-nspawn/</id>
+    <published>2020-03-16T09:58:23.000Z</published>
+    <updated>2020-08-02T14:15:33.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Steam 依賴許多 32-bit lib，鑑於此我沒有在 host 使用 pacman 安裝它。flatpak 等第三方包管理器由於潔癖，同樣沒有考慮。此時，systemd-nspawn 便成爲了很好的選擇。</p><span id="more"></span></blockquote><h2 id="創建-Container"><a href="#創建-Container" class="headerlink" title="創建 Container"></a>創建 Container</h2><figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> pacman -Syu arch-install-scripts</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> <span class="built_in">cd</span> /var/lib/machines</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> mkdir arch-nspawn</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> pacstrap -c arch-nspawn base</span></span><br></pre></td></tr></table></figure><h2 id="配置-Container"><a href="#配置-Container" class="headerlink" title="配置 Container"></a>配置 Container</h2><h3 id="允許訪問-getty"><a href="#允許訪問-getty" class="headerlink" title="允許訪問 getty"></a>允許訪問 getty</h3><p>編輯 <code>/var/lib/machines/arch-nspawn/etc/securetty</code>，加入 <code>pts/0</code> 至 <code>pts/9</code>.</p><h3 id="掛載需要的-Device-file-和-Socket"><a href="#掛載需要的-Device-file-和-Socket" class="headerlink" title="掛載需要的 Device file 和 Socket"></a>掛載需要的 Device file 和 Socket</h3><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># cat /etc/systemd/nspawn/arch-nspawn.nspawn</span></span><br><span class="line"><span class="section">[Exec]</span></span><br><span class="line"><span class="attr">Boot</span>=<span class="literal">true</span></span><br><span class="line"><span class="attr">PrivateUsers</span>=<span class="literal">no</span></span><br><span class="line"></span><br><span class="line"><span class="section">[Files]</span></span><br><span class="line"><span class="comment"># Xorg</span></span><br><span class="line"><span class="attr">BindReadOnly</span>=/tmp/.X11-unix</span><br><span class="line"></span><br><span class="line"><span class="comment"># GPU</span></span><br><span class="line"><span class="attr">Bind</span>=/dev/dri</span><br><span class="line"></span><br><span class="line"><span class="comment"># NVIDIA</span></span><br><span class="line"><span class="attr">Bind</span>=/dev/nvidia0</span><br><span class="line"><span class="attr">Bind</span>=/dev/nvidiactl</span><br><span class="line"><span class="attr">Bind</span>=/dev/nvidia-modeset</span><br><span class="line"><span class="attr">Bind</span>=/dev/shm</span><br><span class="line"></span><br><span class="line"><span class="comment"># Controller</span></span><br><span class="line"><span class="attr">Bind</span>=/dev/input</span><br><span class="line"></span><br><span class="line"><span class="comment"># PulseAudio</span></span><br><span class="line"><span class="attr">BindReadOnly</span>=/run/user/<span class="variable">$UID</span>/pulse</span><br><span class="line"></span><br><span class="line"><span class="comment"># AppIndicator</span></span><br><span class="line"><span class="attr">BindReadOnly</span>=/run/user/<span class="variable">$UID</span>/bus</span><br><span class="line"></span><br><span class="line"><span class="section">[Network]</span></span><br><span class="line"><span class="attr">VirtualEthernet</span>=<span class="literal">no</span></span><br></pre></td></tr></table></figure><p><code># systemctl edit systemd-nspawn@arch-nspawn.service</code></p><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">[Service]</span></span><br><span class="line"><span class="comment"># GPU</span></span><br><span class="line"><span class="attr">DeviceAllow</span>=/dev/dri rw</span><br><span class="line"><span class="attr">DeviceAllow</span>=char-drm rwm</span><br><span class="line"></span><br><span class="line"><span class="comment"># NVIDIA</span></span><br><span class="line"><span class="attr">DeviceAllow</span>=/dev/nvidia0 rw</span><br><span class="line"><span class="attr">DeviceAllow</span>=/dev/nvidiactl rw</span><br><span class="line"><span class="attr">DeviceAllow</span>=/dev/nvidia-modeset rw</span><br><span class="line"><span class="attr">DeviceAllow</span>=/dev/shm rw</span><br><span class="line"></span><br><span class="line"><span class="comment"># Controller</span></span><br><span class="line"><span class="attr">DeviceAllow</span>=char-usb_device rwm</span><br><span class="line"><span class="attr">DeviceAllow</span>=char-input rwm</span><br></pre></td></tr></table></figure><h3 id="允許連接-X-Server"><a href="#允許連接-X-Server" class="headerlink" title="允許連接 X Server"></a>允許連接 X Server</h3><p><code>$ xhost +local:</code></p><h2 id="配置-Steam"><a href="#配置-Steam" class="headerlink" title="配置 Steam"></a>配置 Steam</h2><figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> machinectl start arch-nspawn</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> machinectl login arch-nspawn</span></span><br></pre></td></tr></table></figure><p>以 root 登入，安裝 <a href="https://wiki.archlinux.org/index.php/Steam#Installation">Steam</a>, <a href="https://wiki.archlinux.org/index.php/Xorg#Driver_installation">OpenGL</a> 和 <a href="https://wiki.archlinux.org/index.php/Vulkan#Installation">Vulkan 驅動</a>。</p><p>由於某些程式直接使用 ALSA，需要安裝 <code>pulseaudio-alsa</code>. 但其依賴 <code>pulseaudio</code>，於是使用 pacman 的 <code>--assume-installed</code> 選項跳過。</p><p><code># pacman -S --assume-installed pulseaudio pulseaudio-alsa</code></p><p>建立一個新的使用者，注意要與 Host 運行 D-Bus, PulseAudio 的 UID 相同。</p><p>此時應該可以啓動 Steam 了：</p><p><code>DISPLAY=:0 PULSE_SERVER=unix:/run/user/$UID/pulse/native steam</code></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;Steam 依賴許多 32-bit lib，鑑於此我沒有在 host 使用 pacman 安裝它。flatpak 等第三方包管理器由於潔癖，同樣沒有考慮。此時，systemd-nspawn 便成爲了很好的選擇。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Linux" scheme="https://yhndnzj.com/tags/linux/"/>
+    
+      <category term="systemd" scheme="https://yhndnzj.com/tags/systemd/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的計算機折騰史</title>
+    <link href="https://yhndnzj.com/2020/03/08/my-messing-around-with-computers/"/>
+    <id>https://yhndnzj.com/2020/03/08/my-messing-around-with-computers/</id>
+    <published>2020-03-08T09:53:03.000Z</published>
+    <updated>2020-03-09T13:47:04.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>生命不息，折騰不止</p><span id="more"></span></blockquote><p>大約在幼稚園，表哥帶我進了計算機這個坑。還能記得的，就是用 360 把我爸的電腦弄到花屏吧（</p><p>小學一年級，父母送我去學習了系統安裝、電腦組裝以及 Flash.</p><p>二年級，舅舅送給了我一臺帶有 GMS 的平板電腦，我隨後接觸到了翻牆，並下載了「翻牆路由器」和「自由門」，註冊了第一個 Google Account<del>（很快就丟了）</del>。 我也得到了一臺海信手機，並使用刷機精靈進行了第一次刷機，成功從 Android 2.3 升級到 Android 4.1. 組裝了第一臺電腦（Sandy Bridge 架構）。</p><p>三年級，我接觸到了 Linux（Ubuntu Kylin）。 使用 TWRP 成功爲 Nubia Z5S 刷入 CyanogenMod，開始折騰 Root 和 Xposed. 購買了<del>年輕人的第一臺路由器</del>——小米路由器 R1D（當時還能直接在管理頁面搭建 LAMP 環境呢（</p><p>四年級，組裝了第二臺電腦（Haswell 架構），同時也註冊成爲了第一批 Windows Insider，Linux 換到了 Ubuntu. 當時還不會用 init（好像還是 Upstart），只能將各種自啓動 script 扔到 <code>/etc/rc.local</code>（。開始使用 Shadowsocks 服務（機場）。在安裝 NVIDIA 驅動使用了官方的 .run，隨後無法開機<del>，在 <em>CSDN</em> 找到解決方案：在 grub.cfg 加上 nomodeset（</del>。發現開機後解析度只有 1024x768<del>，又找到另一篇文章：使用 xrandr 強制設定</del>。（黑歷史++（</p><p>五年級，第一次嘗試編譯 AOSP，接觸了 Zsh，rEFInd（然而後面全部棄用了，分別換成了 Fish 和 systemd-boot）。</p><p>六年級，購買了第一臺 VPS，<del>使用 CentOS</del> 搭建了 Shadowsocks Server 和測試用的 WordPress. 學習了一點 Java（現在已經全忘了）。註冊了現在用的 Google Account，購買了 OG Google Pixel. 爲了使用 FCM-for-Mojo 寫了第一個 systemd service（不過是放到 <code>/lib/systemd/system</code>……）</p><p>初一上學期，我加入了 Telegram。在編譯升級 CentOS 的 glibc 時，不小心刪除了 libc.so.6, 只好重裝系統，換成了 Ubuntu（。 在 VPS 上搭建了 ehForwarderBot 和 ownCloud. 下學期，在嘗試過 Fedora 後，換到了 Arch Linux（其實當時應該聽說過 Manjaro，但還是直接裝了 Arch<del>（最正確的選擇</del>。一開始用的是 GNOME, 很快換成了 KDE. 接觸 Cloudflare 和 GCP，搭建了 LAMP 環境（當時一直在折騰 HSTS 和 PHP），WordPress (Blog)<del>（裏面全是黑歷史）</del>，註冊域名 yhndnzj.com.</p><p>初二上學期，加入了 ArchCN 羣組但不怎麼發言。棄用了 WordPress. 購買了 Raspberry Pi 3B+，搭建了 Gitee 和 NextCloud<del>（現在在吃灰（</del>。購買了 CN2 GIA 的 VPS，同樣使用 Arch Linux. 下學期，使用 Hexo 重建了 Blog，同時在桌電上重裝了 Arch Linux，正式（？）加入了 ArchCN 羣。認識了 OriginCode, fc 老師等大佬。K20 Pro 刷入 Pixel Experience 養老。</p><p><img src="/2020/03/08/my-messing-around-with-computers/arch-vps.webp" alt="VPS"></p><p><img src="/2020/03/08/my-messing-around-with-computers/arch-desktop.webp" alt="桌電"></p><p>初三上學期，嘗試了一下 Gentoo，可能還是不適合我吧，很快就刪除了。隨後將 SNB 平臺的那臺電腦作爲了伺服器，並將 EFB 遷移到了上面。</p><p><img src="/2020/03/08/my-messing-around-with-computers/arch-server.webp" alt="伺服器"></p><p>其他使用過的 Linux 發行版：CentOS, Debian, Ubuntu MATE, Linux Mint<del>, CDLinux</del></p><p>想來我也快要初中畢業了，已經折騰了這麼久了。但是，生命不息，折騰不止！（</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;生命不息，折騰不止&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Real life" scheme="https://yhndnzj.com/tags/Real-life/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>修復 NetworkManager-wait-online 導致的 network-online.target active 過早</title>
+    <link href="https://yhndnzj.com/2020/02/17/nm-online/"/>
+    <id>https://yhndnzj.com/2020/02/17/nm-online/</id>
+    <published>2020-02-17T02:50:36.000Z</published>
+    <updated>2020-03-19T02:39:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><span id="more"></span><p>systemd 有個 <code>network-online.target</code>，許多程式會依賴它以在網路連線成功後纔啓動。但如果使用 NetworkManager 提供的 <code>NetworkManager-wait-online.service</code>，會導致某些程式啓動過早，如 shadowsocks-libev 使用域名作爲伺服器地址時報錯 <code>Temporary failure in name resolution</code>。</p></blockquote><p>在換用<a href="https://blog.lilydjwg.me/">百合仙子</a>寫的 <a href="https://github.com/lilydjwg/wait-online">wait-online</a> 後，問題消失。日誌中可以看到 shadowsocks-libev 確實在 <code>network-online.target</code> active 後纔啓動。於是查看 <code>NetworkManager-wait-online.service</code>：</p><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># /usr/lib/systemd/system/NetworkManager-wait-online.service</span></span><br><span class="line"><span class="section">[Unit]</span></span><br><span class="line"><span class="attr">Description</span>=Network Manager Wait <span class="literal">On</span>line</span><br><span class="line"><span class="attr">Documentation</span>=man:nm-<span class="literal">on</span>line(<span class="number">1</span>)</span><br><span class="line"><span class="attr">Requires</span>=NetworkManager.service</span><br><span class="line"><span class="attr">After</span>=NetworkManager.service</span><br><span class="line"><span class="attr">Before</span>=network-<span class="literal">on</span>line.target</span><br><span class="line"></span><br><span class="line"><span class="section">[Service]</span></span><br><span class="line"><span class="attr">Type</span>=<span class="literal">on</span>eshot</span><br><span class="line"><span class="attr">ExecStart</span>=/usr/bin/nm-<span class="literal">on</span>line -s -q --timeout=<span class="number">30</span></span><br><span class="line"><span class="attr">RemainAfterExit</span>=<span class="literal">yes</span></span><br><span class="line"></span><br><span class="line"><span class="section">[Install]</span></span><br><span class="line"><span class="attr">WantedBy</span>=network-<span class="literal">on</span>line.target</span><br></pre></td></tr></table></figure><p>閱讀 <code>nm-online</code> 的 <a href="https://jlk.fjfi.cvut.cz/arch/manpages/man/extra/networkmanager/nm-online.1.en">man page</a> 後發現，<code>-s</code> 是在 NetworkManager 啓動連線時就退出，而非網路連線成功。我選擇使用 drop-in file 來去掉這個選項：</p><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># /etc/systemd/system/NetworkManager-wait-online.service.d/exit-after-connected.conf</span></span><br><span class="line"><span class="section">[Service]</span></span><br><span class="line"><span class="attr">ExecStart</span>=</span><br><span class="line"><span class="attr">ExecStart</span>=/usr/bin/nm-<span class="literal">on</span>line -q --timeout=<span class="number">30</span></span><br></pre></td></tr></table></figure><p>問題解決。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Linux" scheme="https://yhndnzj.com/tags/linux/"/>
+    
+      <category term="systemd" scheme="https://yhndnzj.com/tags/systemd/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Btrfs 自動創建 Snapshot</title>
+    <link href="https://yhndnzj.com/2019/09/13/btrfs-auto-snapshot/"/>
+    <id>https://yhndnzj.com/2019/09/13/btrfs-auto-snapshot/</id>
+    <published>2019-09-13T16:28:17.000Z</published>
+    <updated>2020-03-22T06:18:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Btrfs 有許多吸引人的特性，其中之一就是 Snapshot。經過搜尋，發現 snapper 等已有的程式有許多我不需要的功能，於是決定使用 Bash Script + systemd Unit 實現</p><span id="more"></span></blockquote><h2 id="安裝"><a href="#安裝" class="headerlink" title="安裝"></a>安裝</h2><p><code>$ aur_helper -S btrfs-snapshot</code></p><h2 id="運行"><a href="#運行" class="headerlink" title="運行"></a>運行</h2><h3 id="設定檔示例"><a href="#設定檔示例" class="headerlink" title="設定檔示例"></a>設定檔示例</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">/etc/btrfs-snapshot/root.conf</span><br><span class="line"></span><br><span class="line"><span class="comment"># vim: set ft=sh:</span></span><br><span class="line">SUBVOL=/</span><br><span class="line">DEST=/.snapshot/root</span><br><span class="line">NKEEP=10</span><br></pre></td></tr></table></figure><h3 id="啓動-Timer"><a href="#啓動-Timer" class="headerlink" title="啓動 Timer"></a>啓動 Timer</h3><p><code># systemctl enable --now btrfs-snapshot.timer</code></p><p>或</p><p><code># systemctl enable --now btrfs-snapshot@root.timer</code></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;Btrfs 有許多吸引人的特性，其中之一就是 Snapshot。經過搜尋，發現 snapper 等已有的程式有許多我不需要的功能，於是決定使用 Bash Script + systemd Unit 實現&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Linux" scheme="https://yhndnzj.com/tags/linux/"/>
+    
+      <category term="Btrfs" scheme="https://yhndnzj.com/tags/btrfs/"/>
+    
+      <category term="systemd" scheme="https://yhndnzj.com/tags/systemd/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 Telegram 收發 QQ 訊息</title>
+    <link href="https://yhndnzj.com/2019/05/26/send-and-receive-messages-from-qq-on-telegram/"/>
+    <id>https://yhndnzj.com/2019/05/26/send-and-receive-messages-from-qq-on-telegram/</id>
+    <published>2019-05-26T03:54:31.000Z</published>
+    <updated>2020-08-05T00:06:33.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>2020/08/02: 由於 CoolQ 停止服務，此教學已經無法使用</p><span id="more"></span><p>本教學使用 <a href="https://github.com/blueset/ehForwarderBot">EFB</a>, <a href="https://github.com/blueset/efb-telegram-master">ETM</a>, <a href="https://github.com/milkice233/efb-qq-slave">EQS</a> 和 systemd 守護行程，支援 Ubuntu &gt;= 18.04 &amp; Debian &gt;= 10</p></blockquote><h2 id="安裝"><a href="#安裝" class="headerlink" title="安裝"></a>安裝</h2><p>建議先使用 <code># apt update &amp;&amp; apt upgrade -y</code> 更新所有軟體包</p><h3 id="二進制依賴"><a href="#二進制依賴" class="headerlink" title="二進制依賴"></a>二進制依賴</h3><p><code># apt install -y python3-pip python3-wheel ffmpeg libmagic1 libwebp6</code></p><h3 id="主體"><a href="#主體" class="headerlink" title="主體"></a>主體</h3><p><code># pip3 install ehforwarderbot efb-telegram-master efb-qq-slave</code></p><h2 id="設定"><a href="#設定" class="headerlink" title="設定"></a>設定</h2><p><code># mkdir -p /etc/ehforwarderbot/profiles/qq/&#123;blueset.telegram,milkice.qq&#125;</code></p><h3 id="EFB"><a href="#EFB" class="headerlink" title="EFB"></a>EFB</h3><p>創建 <code>/etc/ehforwarderbot/profiles/qq/config.yaml</code>，寫入以下內容</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">master_channel:</span> <span class="string">blueset.telegram</span></span><br><span class="line"><span class="attr">slave_channels:</span> </span><br><span class="line"><span class="bullet">-</span> <span class="string">milkice.qq</span></span><br></pre></td></tr></table></figure><h3 id="ETM"><a href="#ETM" class="headerlink" title="ETM"></a>ETM</h3><h4 id="創建-Telegram-Bot"><a href="#創建-Telegram-Bot" class="headerlink" title="創建 Telegram Bot"></a><a href="https://blog.1a23.com/2017/01/09/EFB-How-to-Send-and-Receive-Messages-from-WeChat-on-Telegram-zh-CN/#0x030-%E5%88%9B%E5%BB%BA-Telegram-Bot">創建 Telegram Bot</a></h4><h4 id="建立設定檔"><a href="#建立設定檔" class="headerlink" title="建立設定檔"></a>建立設定檔</h4><p>創建 <code>/etc/ehforwarderbot/profiles/qq/blueset.telegram/config.yaml</code>，寫入以下內容</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">token:</span> <span class="string">&quot;TOKEN&quot;</span></span><br><span class="line"><span class="comment"># 將 TOKEN 替換爲在上一步獲得的 Token</span></span><br><span class="line"><span class="attr">admins:</span> </span><br><span class="line"><span class="bullet">-</span> <span class="string">ID</span></span><br><span class="line"><span class="comment"># 將 ID 替換爲在上一步獲得的 Telegram ID</span></span><br></pre></td></tr></table></figure><h3 id="EQS"><a href="#EQS" class="headerlink" title="EQS"></a>EQS</h3><h4 id="CoolQ-Client"><a href="#CoolQ-Client" class="headerlink" title="CoolQ Client"></a><a href="https://github.com/milkice233/efb-qq-slave/blob/master/doc/CoolQ_zh-CN.rst#%E6%96%B9%E6%A1%88%E4%BA%8C%E6%89%8B%E5%8A%A8%E9%85%8D%E7%BD%AE---%E9%85%8D%E7%BD%AE-%E9%85%B7q-%E7%AB%AF%E7%AF%87">CoolQ Client</a></h4><h4 id="主體-1"><a href="#主體-1" class="headerlink" title="主體"></a>主體</h4><p>創建 <code>/etc/ehforwarderbot/profiles/qq/milkice.qq/config.yaml</code>，寫入以下內容</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">Client:</span> <span class="string">CoolQ</span></span><br><span class="line"><span class="attr">CoolQ:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">HTTP</span></span><br><span class="line">  <span class="attr">access_token:</span> <span class="string">ac0f790e1fb74ebcaf45da77a6f9de47</span></span><br><span class="line">  <span class="attr">api_root:</span> <span class="string">http://127.0.0.1:5700/</span></span><br><span class="line">  <span class="attr">host:</span> <span class="number">127.0</span><span class="number">.0</span><span class="number">.1</span></span><br><span class="line">  <span class="attr">port:</span> <span class="number">8000</span></span><br><span class="line">  <span class="attr">is_pro:</span> <span class="literal">false</span> <span class="comment"># 若使用 CoolQ Pro 則爲 true</span></span><br><span class="line">  <span class="attr">air_option:</span></span><br><span class="line">    <span class="attr">upload_to_smms:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><h3 id="systemd-守護行程"><a href="#systemd-守護行程" class="headerlink" title="systemd 守護行程"></a>systemd 守護行程</h3><p>創建 <code>/etc/systemd/system/efb@.service</code>，寫入以下內容</p><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">[Unit]</span></span><br><span class="line"><span class="attr">Description</span>=EFB instance for profile %i</span><br><span class="line"><span class="attr">Documentation</span>=https://github.com/blueset/ehForwarderBot</span><br><span class="line"><span class="attr">Wants</span>=network-<span class="literal">on</span>line.target</span><br><span class="line"><span class="attr">After</span>=network-<span class="literal">on</span>line.target</span><br><span class="line"></span><br><span class="line"><span class="section">[Service]</span></span><br><span class="line"><span class="attr">PrivateTmp</span>=<span class="literal">true</span></span><br><span class="line"><span class="attr">ExecStart</span>=/usr/bin/python3 -m ehforwarderbot -p %i</span><br><span class="line"><span class="attr">Environment</span>=EFB_DATA_PATH=/etc/ehforwarderbot LANG=zh_CN.UTF-<span class="number">8</span></span><br><span class="line"><span class="attr">TimeoutStopSec</span>=<span class="number">10</span></span><br><span class="line"><span class="attr">Restart</span>=<span class="literal">on</span>-failure</span><br><span class="line"></span><br><span class="line"><span class="section">[Install]</span></span><br><span class="line"><span class="attr">WantedBy</span>=multi-user.target</span><br></pre></td></tr></table></figure><h2 id="運行"><a href="#運行" class="headerlink" title="運行"></a>運行</h2><p><code># systemctl start efb@qq</code></p><p>設定爲開機自啓動：<code># systemctl enable efb@qq</code></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;2020/08/02: 由於 CoolQ 停止服務，此教學已經無法使用&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Linux" scheme="https://yhndnzj.com/tags/linux/"/>
+    
+      <category term="systemd" scheme="https://yhndnzj.com/tags/systemd/"/>
+    
+      <category term="EFB" scheme="https://yhndnzj.com/tags/efb/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 Telegram 收發 WeChat 訊息</title>
+    <link href="https://yhndnzj.com/2019/05/24/send-and-receive-messages-from-wechat-on-telegram/"/>
+    <id>https://yhndnzj.com/2019/05/24/send-and-receive-messages-from-wechat-on-telegram/</id>
+    <published>2019-05-24T13:09:25.000Z</published>
+    <updated>2020-03-14T12:51:55.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>本教學使用 <a href="https://github.com/blueset/ehForwarderBot">EFB</a>, <a href="https://github.com/blueset/efb-telegram-master">ETM</a>, <a href="https://github.com/blueset/efb-wechat-slave">EWS</a> 和 systemd 守護行程，支援 Ubuntu &gt;= 18.04 &amp; Debian &gt;= 10</p><span id="more"></span><p>（使用 EWS 有 <strong>WeChat 網頁版被封</strong>的危險，請謹慎使用）</p></blockquote><h2 id="安裝"><a href="#安裝" class="headerlink" title="安裝"></a>安裝</h2><p>建議先使用 <code># apt update &amp;&amp; apt upgrade -y</code> 更新所有軟體包</p><h3 id="二進制依賴"><a href="#二進制依賴" class="headerlink" title="二進制依賴"></a>二進制依賴</h3><p><code># apt install -y python3-pip python3-wheel ffmpeg libmagic1 libwebp6</code></p><h3 id="主體"><a href="#主體" class="headerlink" title="主體"></a>主體</h3><p><code># pip3 install ehforwarderbot efb-telegram-master efb-wechat-slave</code></p><h2 id="設定"><a href="#設定" class="headerlink" title="設定"></a>設定</h2><p><code># mkdir -p /etc/ehforwarderbot/profiles/wechat/blueset.telegram</code></p><h3 id="EFB"><a href="#EFB" class="headerlink" title="EFB"></a>EFB</h3><p>創建 <code>/etc/ehforwarderbot/profiles/wechat/config.yaml</code>，寫入以下內容</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">master_channel:</span> <span class="string">blueset.telegram</span></span><br><span class="line"><span class="attr">slave_channels:</span> </span><br><span class="line"><span class="bullet">-</span> <span class="string">blueset.wechat</span></span><br></pre></td></tr></table></figure><h3 id="ETM"><a href="#ETM" class="headerlink" title="ETM"></a>ETM</h3><h4 id="創建-Telegram-Bot"><a href="#創建-Telegram-Bot" class="headerlink" title="創建 Telegram Bot"></a><a href="https://blog.1a23.com/2017/01/09/EFB-How-to-Send-and-Receive-Messages-from-WeChat-on-Telegram-zh-CN/#0x030-%E5%88%9B%E5%BB%BA-Telegram-Bot">創建 Telegram Bot</a></h4><h4 id="建立設定檔"><a href="#建立設定檔" class="headerlink" title="建立設定檔"></a>建立設定檔</h4><p>創建 <code>/etc/ehforwarderbot/profiles/wechat/blueset.telegram/config.yaml</code>，寫入以下內容</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">token:</span> <span class="string">&quot;TOKEN&quot;</span></span><br><span class="line"><span class="comment"># 將 TOKEN 替換爲在上一步獲得的 Token</span></span><br><span class="line"><span class="attr">admins:</span> </span><br><span class="line"><span class="bullet">-</span> <span class="string">ID</span></span><br><span class="line"><span class="comment"># 將 ID 替換爲在上一步獲得的 Telegram ID</span></span><br></pre></td></tr></table></figure><h3 id="systemd-守護行程"><a href="#systemd-守護行程" class="headerlink" title="systemd 守護行程"></a>systemd 守護行程</h3><p>創建 <code>/etc/systemd/system/efb@.service</code>，寫入以下內容</p><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">[Unit]</span></span><br><span class="line"><span class="attr">Description</span>=EFB instance for profile %i</span><br><span class="line"><span class="attr">Documentation</span>=https://github.com/blueset/ehForwarderBot</span><br><span class="line"><span class="attr">Wants</span>=network-<span class="literal">on</span>line.target</span><br><span class="line"><span class="attr">After</span>=network-<span class="literal">on</span>line.target</span><br><span class="line"></span><br><span class="line"><span class="section">[Service]</span></span><br><span class="line"><span class="attr">PrivateTmp</span>=<span class="literal">true</span></span><br><span class="line"><span class="attr">ExecStart</span>=/usr/bin/python3 -m ehforwarderbot -p %i</span><br><span class="line"><span class="attr">Environment</span>=EFB_DATA_PATH=/etc/ehforwarderbot LANG=zh_CN.UTF-<span class="number">8</span></span><br><span class="line"><span class="attr">TimeoutStopSec</span>=<span class="number">10</span></span><br><span class="line"><span class="attr">Restart</span>=<span class="literal">on</span>-failure</span><br><span class="line"></span><br><span class="line"><span class="section">[Install]</span></span><br><span class="line"><span class="attr">WantedBy</span>=multi-user.target</span><br></pre></td></tr></table></figure><h2 id="運行"><a href="#運行" class="headerlink" title="運行"></a>運行</h2><p><code># systemctl start efb@wechat</code></p><p>使用 <code>$ journalctl -u efb@wechat -e</code> 查看輸出，掃碼登入</p><p>設定爲開機自啓動：<code># systemctl enable efb@wechat</code></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;本教學使用 &lt;a href=&quot;https://github.com/blueset/ehForwarderBot&quot;&gt;EFB&lt;/a&gt;, &lt;a href=&quot;https://github.com/blueset/efb-telegram-master&quot;&gt;ETM&lt;/a&gt;, &lt;a href=&quot;https://github.com/blueset/efb-wechat-slave&quot;&gt;EWS&lt;/a&gt; 和 systemd 守護行程，支援 Ubuntu &amp;gt;= 18.04 &amp;amp; Debian &amp;gt;= 10&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Linux" scheme="https://yhndnzj.com/tags/linux/"/>
+    
+      <category term="systemd" scheme="https://yhndnzj.com/tags/systemd/"/>
+    
+      <category term="EFB" scheme="https://yhndnzj.com/tags/efb/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://yhndnzj.com/2019/05/19/hello-world/"/>
+    <id>https://yhndnzj.com/2019/05/19/hello-world/</id>
+    <published>2019-05-19T00:00:00.000Z</published>
+    <updated>2019-05-19T00:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>

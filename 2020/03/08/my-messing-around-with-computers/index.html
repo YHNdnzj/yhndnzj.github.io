@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW,zh-CN,default">
+    <head>
+    <meta charset="utf-8">
+    <!--
+        hexo-theme-suka © SukkaW
+        GitHub: https://github.com/SukkaW/hexo-theme-suka
+    -->
+
+    <!-- ### Resource Hint ### -->
+
+    <!-- ## DNS Prefetch ## -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+<!-- busuanzi -->
+
+    <link rel="dns-prefetch" href="//busuanzi.ibruce.info">
+
+
+<!-- comment -->
+
+
+
+
+
+
+
+<!-- analytics -->
+
+
+
+
+
+
+
+    <!-- ## Preload ## -->
+    
+    <!-- Busuanzi -->
+    
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.js" as="script">
+
+
+
+
+
+
+
+    <!-- ### Meta & Title & Info ### -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, maximum-scale=5, viewport-fit=cover">
+    <meta name="renderer" content="webkit">
+
+    <!-- Title -->
+    <title>我的計算機折騰史 | YHNdnzj&#39;s Blog</title>
+
+    <!-- Favicons -->
+    <link rel="icon" type="image&#x2F;ico" href="/img/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.webp"><link rel="icon" typt="image&#x2F;png" sizes="192x192" href="/img/favicon-192x192.webp"><link rel="icon" typt="image&#x2F;png" sizes="32x32" href="/img/favicon-32x32.webp"><link rel="icon" typt="image&#x2F;png" sizes="16x16" href="/img/favicon-16x16.webp"><link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="">
+
+    <!-- ### Import File ### -->
+    <link rel="stylesheet" href="/lib/spectre/spectre.min.css"><style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    a, a:visited {
+        color: #0070ff;
+    }
+
+    a:active, a:focus, a:hover {
+        color: #0070ff;
+        opacity: .75;
+    }
+
+    #post-content a,
+    #post-content a:hover,
+    #post-content a:focus,
+    #post-content a:visited {
+        color: #005eb9;
+        opacity: 1;
+    }
+
+    
+
+    .post-entry .card-body a {
+        color: #0070ff;
+    }
+
+    .avatar {
+        background: #444;
+    }
+
+    .navbar-link,
+    .navbar-link:visited,
+    .timeline .timeline-item .timeline-icon.icon-lg {
+        color: #0070ff;
+    }
+
+    .navbar-link:hover {
+        color: #0070ff;
+        opacity: .8;
+    }
+
+    #search-input .btn,
+    #disqus_click_btn,
+    #disqus-switch-to-direct,
+    #disqus-loadmore-button {
+        background: #727e96;
+        border-color: #727e96;
+        color: #fff;
+    }
+
+    #post-toc a.post-toc-link,
+    #post-toc a.post-toc-link:visited,
+    .share-menu.menu .menu-item>a {
+        color: #727e96;
+    }
+
+    .share-menu.menu .menu-item>a:hover,
+    .share-menu.menu .menu-item>a:focus,
+    .share-menu.menu .menu-item>a:visited {
+        color: #50596c;
+        background: #f8f9fa;
+        opacity: .85;
+    }
+</style><link rel="stylesheet" href="/css/style.min.css">
+
+
+
+
+
+
+
+
+    <!-- Prettify Theme -->
+    
+    <link rel="preload" href="/css/highlight/github.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/css/highlight/github.min.css"></noscript>
+
+
+
+
+
+<script>
+/*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
+!function(t){"use strict";t.loadCSS||(t.loadCSS=function(){});var e=loadCSS.relpreload={};if(e.support=function(){var e;try{e=t.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),e.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},e.poly=function(){if(!e.support())for(var a=t.document.getElementsByTagName("link"),n=0;n<a.length;n++){var o=a[n];"preload"!==o.rel||"style"!==o.getAttribute("as")||o.getAttribute("data-loadcss")||(o.setAttribute("data-loadcss",!0),e.bindMediaToggle(o))}},!e.support()){e.poly();var a=t.setInterval(e.poly,500);t.addEventListener?t.addEventListener("load",function(){e.poly(),t.clearInterval(a)}):t.attachEvent&&t.attachEvent("onload",function(){e.poly(),t.clearInterval(a)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:t.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
+</script>
+
+    <!-- ### Site Verification ### -->
+    
+
+
+    <link rel="alternate" type="application/atom+xml" href="/atom.xml"><meta name="mobile-web-app-capable" content="yes"><meta name="application-name" content="YHNdnzj's Blog"><meta name="msapplication-starturl" content="https://yhndnzj.com"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="YHNdnzj's Blog"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- ### The Open Graph & Twitter Card Protocol ### -->
+    <meta property="og:title" content="我的計算機折騰史 | YHNdnzj&#39;s Blog"><meta property="og:site_name" content="YHNdnzj&#39;s Blog"><meta property="og:type" content="article"><meta property="og:url" content="https://yhndnzj.com/2020/03/08/my-messing-around-with-computers/"><meta property="og:locale" content="zh-TW,zh-CN,default"><meta name="description" content="生命不息，折騰不止 - Mike Yuan - YHNdnzj&#39;s Blog"><meta name="keywords" content="Real life, Linux, Android"><meta property="og:image" content="https://yhndnzj.com/2020/03/08/my-messing-around-with-computers/arch-vps.webp"><meta property="og:image" content="https://yhndnzj.com/2020/03/08/my-messing-around-with-computers/arch-desktop.webp"><meta property="og:image" content="https://yhndnzj.com/2020/03/08/my-messing-around-with-computers/arch-server.webp"><meta property="article:published_time" content="2020-03-08T09:53:03.000Z"><meta property="article:modified_time" content="2020-03-09T13:47:04.000Z"><meta property="og:updated_time" content="2020-03-09T13:47:04.000Z"><meta property="article:author" content="Mike Yuan"><meta property="article:tag" content="Real life, Linux, Android"><meta name="twitter:card" content="summary">
+
+    
+
+    <!-- ### Canonical link ### -->
+    <link rel="canonical" href="https://yhndnzj.com/2020/03/08/my-messing-around-with-computers/">
+
+    <meta name="generator" content="Hexo 5.4.0">
+
+    <!-- ### Analytics ### -->
+    
+
+
+
+
+
+
+
+    <!-- ### Structured Data ### -->
+    
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "url": "https://yhndnzj.com/2020/03/08/my-messing-around-with-computers/",
+    "@type": "BlogPosting",
+    "logo": "https://yhndnzj.com/img/favicon-192x192.webp",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://yhndnzj.com/2020/03/08/my-messing-around-with-computers/"
+    },
+    "headline": "我的計算機折騰史 | YHNdnzj&#39;s Blog",
+    
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://yhndnzj.com/img/favicon-192x192.webp"
+    },
+    
+    "datePublished": "2020-03-08T09:53:03.000Z",
+    "dateModified": "2020-03-09T13:47:04.000Z",
+    "author": {
+        "@type": "Person",
+        "name": "Mike Yuan",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://yhndnzj.com/img/avatar.webp"
+        },
+        "description": "Mike Yuan 的個人小站"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "YHNdnzj&#39;s Blog",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://yhndnzj.com/img/favicon-192x192.webp"
+        }
+    },
+    
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://yhndnzj.com/search/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+    },
+    
+    "keywords": "Real life, Linux, Android",
+    "description": "生命不息，折騰不止 - Mike Yuan - YHNdnzj&#39;s Blog"
+}
+</script>
+
+
+
+    <!-- ### Custom Head ### -->
+    
+</head>
+
+    <body>
+            
+
+            <!-- ### Main content ### -->
+            <!-- ## Header ##-->
+<header>
+    <h1 class="header-title text-center"><a href="/">YHNdnzj&#39;s Blog</a></h1>
+
+    <p class="text-center header-slogan">
+        
+            
+                Mike Yuan 的個人小站
+            
+        
+    </p>
+
+    <nav class="navbar-section text-center">
+    
+        <a href="/" class="navbar-link">首页</a>
+    
+    
+        <a href="/archives/" class="navbar-link">归档</a>
+    
+    
+        <a href="/search/" class="navbar-link">搜索</a>
+    
+    
+        <a href="/tags/" class="navbar-link">标签</a>
+    
+        <a href="/about/" class="navbar-link">关于</a>
+    
+        <a href="/links/" class="navbar-link">友链</a>
+    
+    
+        <div class="dropdown dropdown-right">
+    <a class="navbar-link dropdown-toggle" tabindex="0">分享</a>
+    <ul class="menu share-menu">
+
+        <!-- Share Weibo -->
+        
+
+        <!-- Share Twitter -->
+        
+        <li class="menu-item">
+            <a href="https://twitter.com/intent/tweet?text=YHNdnzj's Blog&url=https://yhndnzj.com&via=Mike Yuan" target="_blank" rel="external noopener noreferrer nofollow">分享到 Twitter</a>
+        </li>
+        
+
+        <!-- Share Facebook -->
+        
+        <li class="menu-item">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://yhndnzj.com" target="_blank" rel="external noopener noreferrer nofollow">分享到 Facebook</a>
+        </li>
+        
+
+        <!-- Share Google+ -->
+        
+
+        <!-- Share LinkedIn -->
+        
+
+        <!-- Share QQ -->
+        
+        <li class="menu-item">
+            <a href="http://connect.qq.com/widget/shareqq/index.html?site=YHNdnzj's Blog&title=友链&summary=Mike Yuan 的個人小站&pics=https://yhndnzj.com/img/favicon-192x192.webp&url=https://yhndnzj.com" target="_blank" rel="external noopener noreferrer nofollow"> 分享到 QQ</a>
+        </li>
+        
+
+        <!-- Share Telegram -->
+        
+        <li class="menu-item">
+            <a href="https://t.me/share/url?url=https://yhndnzj.com&text=友链" target="_blank" rel="external noopener noreferrer nofollow">分享到 Telegram</a>
+        </li>
+        
+
+        <!-- QRCode -->
+        
+        <li class="menu-item">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAAAAABx8Un7AAABMElEQVR42u3Z0Q7CMAiF4b3/S+uViTGDcxgrq8nfG02m/XZBKJTj9cA6QEFBL6FHssI/fz37fHf2AZ1D1cZqc3cf0Fk02iQKLOelQPdGo2QC+r/oGfD7O9C90ChRnwVRFGC3nTKgbTQrqCqft1WDoC1UNj1B4a0KslbXBtpCVRGdBc/Zy2UNGOgMmhVh2aaVpgt0Ho0O6ywxZE1VeNCDjqDqwkId6uoAAJ1Hs0ByE0RU0F2KXtA26hzWbuMkgw10FI2CIwos51JEBhLocrRyseE2W6DPoU6zqxK7Gg6BzqCViw514SybMNAR1B3Eu5fRdmEGuhS9OjhoBRLocrQ64HMHDqB7ok5xbV1Wg26HZklCNVeg86gzBKgkidb0H7SNqsSdJYPSC4COoJMLFBS0tN4iVRGxh/oy0QAAAABJRU5ErkJggg==" alr="QRCode">
+        </li>
+        
+
+    </ul>
+</div>
+    
+    
+</nav>
+</header>
+
+            
+    <!-- ## Post ## -->
+    <div class="post-container">
+    <div id="post-card" class="card">
+        
+        <div class="card-item-container">
+            <div class="card-inner-cell">
+                <!-- # Post Header Info # -->
+                <div class="card-header">
+                    
+    <h1 class="card-title h3 mb-2">我的計算機折騰史</h1>
+
+
+
+
+<div class="post-header-info">
+    <p class="post-header-info-left text-gray">
+        <img class="author-thumb lazyload" data-src="/img/avatar.webp" src="/img/suka-lazyload.gif" alt="Mike Yuan's Avatar">
+        <span>2020-03-08</span>
+        
+        
+            <!-- Busuanzi Post Views -->
+<span id="busuanzi_container_page_pv" hidden>
+    <span class="suka-devide-dot"></span>
+    <span></span>
+    <span id="busuanzi_value_page_pv"></span>
+    <span>Views</span>
+</span>
+        
+        
+    </p>
+    <div class="post-header-info-right">
+        
+            <div class="dropdown dropdown-right">
+<a class="dropdown-toggle" tabindex="0">分享本文</a>
+<ul class="menu share-menu">
+    <!-- Share Weibo -->
+    
+
+    <!-- Share Twitter -->
+    
+    <li class="menu-item">
+        <a href="https://twitter.com/intent/tweet?text=我的計算機折騰史&url=https://yhndnzj.com/2020/03/08/my-messing-around-with-computers/&via=Mike Yuan" target="_blank" rel="external noopener noreferrer nofollow">分享到 Twitter</a>
+    </li>
+    
+
+    <!-- Share Facebook -->
+    
+    <li class="menu-item">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://yhndnzj.com/2020/03/08/my-messing-around-with-computers/" target="_blank" rel="external noopener noreferrer nofollow">分享到 Facebook</a>
+    </li>
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+    <li class="menu-item">
+        <a href="http://connect.qq.com/widget/shareqq/index.html?site=YHNdnzj's Blog&title=YHNdnzj's Blog&summary=Mike Yuan 的個人小站&pics=https://yhndnzj.com/img/favicon-192x192.webp&url=https://yhndnzj.com/2020/03/08/my-messing-around-with-computers/" target="_blank" rel="external noopener noreferrer nofollow"> 分享到 QQ</a>
+    </li>
+    
+
+    <!-- Share Telegram -->
+    
+    <li class="menu-item">
+        <a href="https://t.me/share/url?url=https://yhndnzj.com/2020/03/08/my-messing-around-with-computers/&text=YHNdnzj's Blog" target="_blank" rel="external noopener noreferrer nofollow">分享到 Telegram</a>
+    </li>
+    
+
+    <!-- QRCode -->
+    
+    <li class="menu-item">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAAAAAA83tqdAAACLUlEQVR42u3aQW7DMAwFUd//0u2qQIBK/EPXQWNzvAmQONLzQjJF8vi6wXWIFClS5Acgj+L6+f31vt13q3tef/sFCPOKnI3cDbL6TMgVoBq/+l7kbGS1YJYDLCbZ/ZcsvuV8IkXubl5s0mlD327QIkVesHDooqL3ihRJkCkAIEFq5+VwaRQk8nFIehC7+vMtp0WRt0e2EkibhdJNKrw1qyby9kgSsO4Q1Ya82+RToiG+cUQ+HlkNnB5kN3jCkYBX5Gxk+nNnEnKYSwkskbOR1cs/BRNVgSkuivAAIuciaQKqQtMg43RyQOQoJE0k7RbQmeAZP6hIkWERkSaRbvL11BtH5KOR6UZysEqNSalwut34RYpsFuXJgSwFGuULQuRIJDkskQmqoLfT1LQNMESORVZNRxSTGvLoAU2kSBJE0AehxdDyQCdyPDIVhqokaBWUkORBTA6IHIPsQFqFIljEr34XORdJipdpMZCJaXJMpMiUwKeBSCfgSI14ImcjaVE9BSMkeEhJLJEiyeLoFjJpIBzRIscjO01HJAnaHRMtHJEjkBSRikYp4V8FwajJU+Q4ZIVKA5LkP71EzkZ2mudowqq7mHDCSuQIJGl4S8VKWnzqFAxEzkamRGg6xKdkfjrAoeSAyHHIlNivElQ0mR8DimozFymy2fROiqa0ACBSJEncp8LnmSaTVvOSyHHINOlfmzY7C02kyHQQw5svWBCkICVyNvKTL5EiRYr8x+sbw3DWdXJ2Wa4AAAAASUVORK5CYII=" alt="QRCode">
+    </li>
+    
+
+</ul>
+</div>
+        
+    </div>
+</div>
+                </div>
+                <div class="card-body">
+                    
+                        
+                        
+                    
+                    <article id="post-content">
+                        <blockquote>
+<p>生命不息，折騰不止</p>
+<span id="more"></span>
+</blockquote>
+<p>大約在幼稚園，表哥帶我進了計算機這個坑。還能記得的，就是用 360 把我爸的電腦弄到花屏吧（</p>
+<p>小學一年級，父母送我去學習了系統安裝、電腦組裝以及 Flash.</p>
+<p>二年級，舅舅送給了我一臺帶有 GMS 的平板電腦，我隨後接觸到了翻牆，並下載了「翻牆路由器」和「自由門」，註冊了第一個 Google Account<del>（很快就丟了）</del>。 我也得到了一臺海信手機，並使用刷機精靈進行了第一次刷機，成功從 Android 2.3 升級到 Android 4.1. 組裝了第一臺電腦（Sandy Bridge 架構）。</p>
+<p>三年級，我接觸到了 Linux（Ubuntu Kylin）。 使用 TWRP 成功爲 Nubia Z5S 刷入 CyanogenMod，開始折騰 Root 和 Xposed. 購買了<del>年輕人的第一臺路由器</del>——小米路由器 R1D（當時還能直接在管理頁面搭建 LAMP 環境呢（</p>
+<p>四年級，組裝了第二臺電腦（Haswell 架構），同時也註冊成爲了第一批 Windows Insider，Linux 換到了 Ubuntu. 當時還不會用 init（好像還是 Upstart），只能將各種自啓動 script 扔到 <code>/etc/rc.local</code>（。開始使用 Shadowsocks 服務（機場）。在安裝 NVIDIA 驅動使用了官方的 .run，隨後無法開機<del>，在 <em>CSDN</em> 找到解決方案：在 grub.cfg 加上 nomodeset（</del>。發現開機後解析度只有 1024x768<del>，又找到另一篇文章：使用 xrandr 強制設定</del>。（黑歷史++（</p>
+<p>五年級，第一次嘗試編譯 AOSP，接觸了 Zsh，rEFInd（然而後面全部棄用了，分別換成了 Fish 和 systemd-boot）。</p>
+<p>六年級，購買了第一臺 VPS，<del>使用 CentOS</del> 搭建了 Shadowsocks Server 和測試用的 WordPress. 學習了一點 Java（現在已經全忘了）。註冊了現在用的 Google Account，購買了 OG Google Pixel. 爲了使用 FCM-for-Mojo 寫了第一個 systemd service（不過是放到 <code>/lib/systemd/system</code>……）</p>
+<p>初一上學期，我加入了 Telegram。在編譯升級 CentOS 的 glibc 時，不小心刪除了 libc.so.6, 只好重裝系統，換成了 Ubuntu（。 在 VPS 上搭建了 ehForwarderBot 和 ownCloud. 下學期，在嘗試過 Fedora 後，換到了 Arch Linux（其實當時應該聽說過 Manjaro，但還是直接裝了 Arch<del>（最正確的選擇</del>。一開始用的是 GNOME, 很快換成了 KDE. 接觸 Cloudflare 和 GCP，搭建了 LAMP 環境（當時一直在折騰 HSTS 和 PHP），WordPress (Blog)<del>（裏面全是黑歷史）</del>，註冊域名 yhndnzj.com.</p>
+<p>初二上學期，加入了 ArchCN 羣組但不怎麼發言。棄用了 WordPress. 購買了 Raspberry Pi 3B+，搭建了 Gitee 和 NextCloud<del>（現在在吃灰（</del>。購買了 CN2 GIA 的 VPS，同樣使用 Arch Linux. 下學期，使用 Hexo 重建了 Blog，同時在桌電上重裝了 Arch Linux，正式（？）加入了 ArchCN 羣。認識了 OriginCode, fc 老師等大佬。K20 Pro 刷入 Pixel Experience 養老。</p>
+<p><img src="/2020/03/08/my-messing-around-with-computers/arch-vps.webp" alt="VPS"></p>
+<p><img src="/2020/03/08/my-messing-around-with-computers/arch-desktop.webp" alt="桌電"></p>
+<p>初三上學期，嘗試了一下 Gentoo，可能還是不適合我吧，很快就刪除了。隨後將 SNB 平臺的那臺電腦作爲了伺服器，並將 EFB 遷移到了上面。</p>
+<p><img src="/2020/03/08/my-messing-around-with-computers/arch-server.webp" alt="伺服器"></p>
+<p>其他使用過的 Linux 發行版：CentOS, Debian, Ubuntu MATE, Linux Mint<del>, CDLinux</del></p>
+<p>想來我也快要初中畢業了，已經折騰了這麼久了。但是，生命不息，折騰不止！（</p>
+
+                    </article>
+                    
+    <blockquote class="post-license">
+        <p>
+            <strong>本文作者&nbsp;:&nbsp;Mike Yuan</strong>
+            <br>
+            <strong>
+            
+                本文协议 : <a href="http://creativecommons.org/licenses/by/4.0/" rel="external nofollow noreferrer" target="_blank">知识共享署名 4.0 国际许可协议</a>
+            </strong>
+            <br>
+            <strong>本文链接&nbsp;:&nbsp;</strong><a href="https://yhndnzj.com/2020/03/08/my-messing-around-with-computers/">https://yhndnzj.com/2020/03/08/my-messing-around-with-computers/</a>
+        </p>
+    </blockquote>
+
+
+
+    <blockquote id="date-expire-notification" class="post-expired-notify">本文最后更新于 <span id="date-expire-num"></span> 天前，文中所描述的信息可能已发生改变</blockquote>
+    <script>
+    (function() {
+        var dateUpdate = Date.parse("2020-03-09");
+        var nowDate = new Date();
+        var a = nowDate.getTime();
+        var b = a - dateUpdate;
+        var daysUpdateExpire = Math.floor(b/(24*3600*1000));
+        if (daysUpdateExpire >= 120) {
+            document.getElementById('date-expire-num').innerHTML = daysUpdateExpire;
+        } else {
+            document.getElementById('date-expire-notification').style.display = 'none';
+        }
+    })();
+    </script>
+
+
+<p class="post-footer-info mb-0 pt-0">本文发表于&nbsp;<time datetime="2020-03-08T09:53:03.000Z" itemprop="datePublished">2020-03-08</time>
+
+    , 最后修改于&nbsp;<time datetime="2020-03-09T13:47:04.000Z" itemprop="dateModified">2020-03-09</time>
+
+</p>
+<p class="post-footer-info mb-0 pt-2">
+
+
+
+<span class="post-tags-list mt-2">
+
+<a class="post-tags-list-item" href="/tags/Real-life/" rel="tag">#&nbsp;Real life</a>
+
+</span>
+
+
+</p>
+
+                </div>
+                <div class="post-nav px-2 bg-gray">
+<ul class="pagination">
+    <!-- Prev Nav -->
+    
+        <li class="page-item page-prev">
+            <a href="/2020/03/16/steam-on-systemd-nspawn/" rel="prev">
+                <div class="page-item-title"><i class="icon icon-back" aria-hidden="true"></i></div>
+                <div class="page-item-subtitle">在 systemd-nspawn 上運行 Steam</div>
+            </a>
+        </li>
+    
+
+    <!-- Next Nav -->
+    
+        <li class="page-item page-next">
+            <a href="/2020/02/17/nm-online/" rel="next">
+                <div class="page-item-title"><i class="icon icon-forward" aria-hidden="true"></i></div>
+                <div class="page-item-subtitle">修復 NetworkManager-wait-online 導致的 network-online.target active 過早</div>
+            </a>
+        </li>
+    
+</ul>
+</div>
+
+                
+                    <!-- # Comment # -->
+                    
+                        <div class="card-footer post-comment">
+                            <div id="disqus_thread"></div>
+
+<div class="btn_click_load"> 
+    <button id="disqus_click_btn" class="btn">阅读评论（请确保 disqus 可以正常加载）</button>
+</div>
+
+<script>
+    var disqus_config = function () {
+        this.page.url = 'https://yhndnzj.com/2020/03/08/my-messing-around-with-computers/'; // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'https://yhndnzj.com/2020/03/08/my-messing-around-with-computers/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+
+<script id="disqus-lazy-load-script">
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'https://disqus.com/next/config.json', true);
+    xhr.timeout = 4000;
+    xhr.send();
+    xhr.onload = function() {
+        if(this.status == 200||this.status == 304){
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//yhndnzjs-blog.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+            document.getElementById('disqus_click_btn').setAttribute("style", "display:none")
+        }
+    };
+    xhr.ontimeout = function(e) {
+        document.getElementById('disqus_click_btn').setAttribute("style", "display:block");
+    };
+    xhr.onerror = function(e) {
+        document.getElementById('disqus_click_btn').setAttribute("style", "display:block");
+    };
+    document.getElementById('disqus_click_btn').onclick=function() { //click to load comments
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//yhndnzjs-blog.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        document.getElementById('disqus_click_btn').setAttribute("style", "display:none")
+    };
+</script>
+
+                        </div>
+                    
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+            <!-- ### Footer ### -->
+            <footer class="text-center">
+    <!-- footer copyright -->
+    
+        <p class="footer-copyright mb-0">Copyright&nbsp;©&nbsp;<span id="copyright-year"></span>
+            <a class="footer-copyright-a" href="https://yhndnzj.com">YHNdnzj's Blog</a>
+        </p>
+
+    <!-- footer custom text -->
+    <p class="footer-text mb-0">
+    
+    </p>
+    <!-- footer develop info -->
+    <p class="footer-develop mb-0">
+        
+    <!-- Busuanzi User Views -->
+    <span id="busuanzi_container_site_uv" hidden>
+        <span></span>
+        <span id="busuanzi_value_site_uv"></span>
+        <span>Viewers</span>
+        
+            <span>|</span>
+        
+    </span>
+
+
+
+
+        
+        Powered by&nbsp;<!--
+         --><a href="https://hexo.io" target="_blank" class="footer-develop-a" rel="external nofollow noopener noreferrer">Hexo</a><span class="footer-develop-divider"></span>Theme&nbsp;-&nbsp;<!--
+         --><a href="https://github.com/SukkaW/hexo-theme-suka" target="_blank" class="footer-develop-a" rel="external noopener">Suka</a>
+    </p>
+</footer>
+
+
+        <!-- ### Import File ### -->
+        <!-- ### Footer JS Import ### -->
+
+<script>
+
+    
+window.lazyLoadOptions = {
+    elements_selector: ".lazyload",
+    threshold: 50
+};
+
+(function() {
+    var copyrightNow = new Date().getFullYear();
+    var copyrightContent = document.getElementById('copyright-year');
+    var copyrightSince = 2019;
+    if (copyrightSince === copyrightNow) {
+        copyrightContent.textContent = copyrightNow;
+    } else {
+        copyrightContent.textContent = copyrightSince + ' - ' + copyrightNow;
+    }
+})();
+console.log('\n %c Suka Theme (hexo-theme-suka) | © SukkaW | Verision 1.3.3 %c https://github.com/SukkaW/hexo-theme-suka \n', 'color: #fff; background: #444; padding:5px 0;', 'background: #bbb; padding:5px 0;');
+
+</script>
+
+<script src="/lib/vanilla-lazyload/lazyload.min.js" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.js" async></script>
+
+
+<!-- Offset -->
+
+
+
+
+<!-- Comment -->
+
+    
+        
+    
+
+
+<!-- ### Custom Footer ### -->
+
+    </body>
+
+</html>

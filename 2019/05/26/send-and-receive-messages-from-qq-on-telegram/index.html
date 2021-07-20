@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW,zh-CN,default">
+    <head>
+    <meta charset="utf-8">
+    <!--
+        hexo-theme-suka © SukkaW
+        GitHub: https://github.com/SukkaW/hexo-theme-suka
+    -->
+
+    <!-- ### Resource Hint ### -->
+
+    <!-- ## DNS Prefetch ## -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+<!-- busuanzi -->
+
+    <link rel="dns-prefetch" href="//busuanzi.ibruce.info">
+
+
+<!-- comment -->
+
+
+
+
+
+
+
+<!-- analytics -->
+
+
+
+
+
+
+
+    <!-- ## Preload ## -->
+    
+    <!-- Busuanzi -->
+    
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.js" as="script">
+
+
+
+
+
+
+
+    <!-- ### Meta & Title & Info ### -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, maximum-scale=5, viewport-fit=cover">
+    <meta name="renderer" content="webkit">
+
+    <!-- Title -->
+    <title>使用 Telegram 收發 QQ 訊息 | YHNdnzj&#39;s Blog</title>
+
+    <!-- Favicons -->
+    <link rel="icon" type="image&#x2F;ico" href="/img/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.webp"><link rel="icon" typt="image&#x2F;png" sizes="192x192" href="/img/favicon-192x192.webp"><link rel="icon" typt="image&#x2F;png" sizes="32x32" href="/img/favicon-32x32.webp"><link rel="icon" typt="image&#x2F;png" sizes="16x16" href="/img/favicon-16x16.webp"><link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="">
+
+    <!-- ### Import File ### -->
+    <link rel="stylesheet" href="/lib/spectre/spectre.min.css"><style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    a, a:visited {
+        color: #0070ff;
+    }
+
+    a:active, a:focus, a:hover {
+        color: #0070ff;
+        opacity: .75;
+    }
+
+    #post-content a,
+    #post-content a:hover,
+    #post-content a:focus,
+    #post-content a:visited {
+        color: #005eb9;
+        opacity: 1;
+    }
+
+    
+
+    .post-entry .card-body a {
+        color: #0070ff;
+    }
+
+    .avatar {
+        background: #444;
+    }
+
+    .navbar-link,
+    .navbar-link:visited,
+    .timeline .timeline-item .timeline-icon.icon-lg {
+        color: #0070ff;
+    }
+
+    .navbar-link:hover {
+        color: #0070ff;
+        opacity: .8;
+    }
+
+    #search-input .btn,
+    #disqus_click_btn,
+    #disqus-switch-to-direct,
+    #disqus-loadmore-button {
+        background: #727e96;
+        border-color: #727e96;
+        color: #fff;
+    }
+
+    #post-toc a.post-toc-link,
+    #post-toc a.post-toc-link:visited,
+    .share-menu.menu .menu-item>a {
+        color: #727e96;
+    }
+
+    .share-menu.menu .menu-item>a:hover,
+    .share-menu.menu .menu-item>a:focus,
+    .share-menu.menu .menu-item>a:visited {
+        color: #50596c;
+        background: #f8f9fa;
+        opacity: .85;
+    }
+</style><link rel="stylesheet" href="/css/style.min.css">
+
+
+
+
+
+
+
+
+    <!-- Prettify Theme -->
+    
+    <link rel="preload" href="/css/highlight/github.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/css/highlight/github.min.css"></noscript>
+
+
+
+
+
+<script>
+/*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
+!function(t){"use strict";t.loadCSS||(t.loadCSS=function(){});var e=loadCSS.relpreload={};if(e.support=function(){var e;try{e=t.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),e.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},e.poly=function(){if(!e.support())for(var a=t.document.getElementsByTagName("link"),n=0;n<a.length;n++){var o=a[n];"preload"!==o.rel||"style"!==o.getAttribute("as")||o.getAttribute("data-loadcss")||(o.setAttribute("data-loadcss",!0),e.bindMediaToggle(o))}},!e.support()){e.poly();var a=t.setInterval(e.poly,500);t.addEventListener?t.addEventListener("load",function(){e.poly(),t.clearInterval(a)}):t.attachEvent&&t.attachEvent("onload",function(){e.poly(),t.clearInterval(a)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:t.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
+</script>
+
+    <!-- ### Site Verification ### -->
+    
+
+
+    <link rel="alternate" type="application/atom+xml" href="/atom.xml"><meta name="mobile-web-app-capable" content="yes"><meta name="application-name" content="YHNdnzj's Blog"><meta name="msapplication-starturl" content="https://yhndnzj.com"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="YHNdnzj's Blog"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- ### The Open Graph & Twitter Card Protocol ### -->
+    <meta property="og:title" content="使用 Telegram 收發 QQ 訊息 | YHNdnzj&#39;s Blog"><meta property="og:site_name" content="YHNdnzj&#39;s Blog"><meta property="og:type" content="article"><meta property="og:url" content="https://yhndnzj.com/2019/05/26/send-and-receive-messages-from-qq-on-telegram/"><meta property="og:locale" content="zh-TW,zh-CN,default"><meta name="description" content="2020&#x2F;08&#x2F;02: 由於 CoolQ 停止服務，此教學已經無法使用 - Mike Yuan - YHNdnzj&#39;s Blog"><meta name="keywords" content="Linux, systemd, EFB, Linux, Android"><meta property="og:image" content="/2019/05/24/send-and-receive-messages-from-wechat-on-telegram/thumbnail.webp"><meta property="article:published_time" content="2019-05-26T03:54:31.000Z"><meta property="article:modified_time" content="2020-08-05T00:06:33.000Z"><meta property="og:updated_time" content="2020-08-05T00:06:33.000Z"><meta property="article:author" content="Mike Yuan"><meta property="article:tag" content="Linux, systemd, EFB, Linux, Android"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="/2019/05/24/send-and-receive-messages-from-wechat-on-telegram/thumbnail.webp">
+
+    
+
+    <!-- ### Canonical link ### -->
+    <link rel="canonical" href="https://yhndnzj.com/2019/05/26/send-and-receive-messages-from-qq-on-telegram/">
+
+    <meta name="generator" content="Hexo 5.4.0">
+
+    <!-- ### Analytics ### -->
+    
+
+
+
+
+
+
+
+    <!-- ### Structured Data ### -->
+    
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "url": "https://yhndnzj.com/2019/05/26/send-and-receive-messages-from-qq-on-telegram/",
+    "@type": "BlogPosting",
+    "logo": "https://yhndnzj.com/img/favicon-192x192.webp",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://yhndnzj.com/2019/05/26/send-and-receive-messages-from-qq-on-telegram/"
+    },
+    "headline": "使用 Telegram 收發 QQ 訊息 | YHNdnzj&#39;s Blog",
+    
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://yhndnzj.com/2019/05/24/send-and-receive-messages-from-wechat-on-telegram/thumbnail.webp"
+    },
+    
+    "datePublished": "2019-05-26T03:54:31.000Z",
+    "dateModified": "2020-08-05T00:06:33.000Z",
+    "author": {
+        "@type": "Person",
+        "name": "Mike Yuan",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://yhndnzj.com/img/avatar.webp"
+        },
+        "description": "Mike Yuan 的個人小站"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "YHNdnzj&#39;s Blog",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://yhndnzj.com/img/favicon-192x192.webp"
+        }
+    },
+    
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://yhndnzj.com/search/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+    },
+    
+    "keywords": "Linux, systemd, EFB, Linux, Android",
+    "description": "2020/08/02: 由於 CoolQ 停止服務，此教學已經無法使用 - Mike Yuan - YHNdnzj&#39;s Blog"
+}
+</script>
+
+
+
+    <!-- ### Custom Head ### -->
+    
+</head>
+
+    <body>
+            
+
+            <!-- ### Main content ### -->
+            <!-- ## Header ##-->
+<header>
+    <h1 class="header-title text-center"><a href="/">YHNdnzj&#39;s Blog</a></h1>
+
+    <p class="text-center header-slogan">
+        
+            
+                Mike Yuan 的個人小站
+            
+        
+    </p>
+
+    <nav class="navbar-section text-center">
+    
+        <a href="/" class="navbar-link">首页</a>
+    
+    
+        <a href="/archives/" class="navbar-link">归档</a>
+    
+    
+        <a href="/search/" class="navbar-link">搜索</a>
+    
+    
+        <a href="/tags/" class="navbar-link">标签</a>
+    
+        <a href="/about/" class="navbar-link">关于</a>
+    
+        <a href="/links/" class="navbar-link">友链</a>
+    
+    
+        <div class="dropdown dropdown-right">
+    <a class="navbar-link dropdown-toggle" tabindex="0">分享</a>
+    <ul class="menu share-menu">
+
+        <!-- Share Weibo -->
+        
+
+        <!-- Share Twitter -->
+        
+        <li class="menu-item">
+            <a href="https://twitter.com/intent/tweet?text=YHNdnzj's Blog&url=https://yhndnzj.com&via=Mike Yuan" target="_blank" rel="external noopener noreferrer nofollow">分享到 Twitter</a>
+        </li>
+        
+
+        <!-- Share Facebook -->
+        
+        <li class="menu-item">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://yhndnzj.com" target="_blank" rel="external noopener noreferrer nofollow">分享到 Facebook</a>
+        </li>
+        
+
+        <!-- Share Google+ -->
+        
+
+        <!-- Share LinkedIn -->
+        
+
+        <!-- Share QQ -->
+        
+        <li class="menu-item">
+            <a href="http://connect.qq.com/widget/shareqq/index.html?site=YHNdnzj's Blog&title=友链&summary=Mike Yuan 的個人小站&pics=https://yhndnzj.com/img/favicon-192x192.webp&url=https://yhndnzj.com" target="_blank" rel="external noopener noreferrer nofollow"> 分享到 QQ</a>
+        </li>
+        
+
+        <!-- Share Telegram -->
+        
+        <li class="menu-item">
+            <a href="https://t.me/share/url?url=https://yhndnzj.com&text=友链" target="_blank" rel="external noopener noreferrer nofollow">分享到 Telegram</a>
+        </li>
+        
+
+        <!-- QRCode -->
+        
+        <li class="menu-item">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAAAAABx8Un7AAABMElEQVR42u3Z0Q7CMAiF4b3/S+uViTGDcxgrq8nfG02m/XZBKJTj9cA6QEFBL6FHssI/fz37fHf2AZ1D1cZqc3cf0Fk02iQKLOelQPdGo2QC+r/oGfD7O9C90ChRnwVRFGC3nTKgbTQrqCqft1WDoC1UNj1B4a0KslbXBtpCVRGdBc/Zy2UNGOgMmhVh2aaVpgt0Ho0O6ywxZE1VeNCDjqDqwkId6uoAAJ1Hs0ByE0RU0F2KXtA26hzWbuMkgw10FI2CIwos51JEBhLocrRyseE2W6DPoU6zqxK7Gg6BzqCViw514SybMNAR1B3Eu5fRdmEGuhS9OjhoBRLocrQ64HMHDqB7ok5xbV1Wg26HZklCNVeg86gzBKgkidb0H7SNqsSdJYPSC4COoJMLFBS0tN4iVRGxh/oy0QAAAABJRU5ErkJggg==" alr="QRCode">
+        </li>
+        
+
+    </ul>
+</div>
+    
+    
+</nav>
+</header>
+
+            
+    <!-- ## Post ## -->
+    <div class="post-container">
+    <div id="post-card" class="card">
+        
+            <div class="card-image lazyload" data-bg="url('/2019/05/24/send-and-receive-messages-from-wechat-on-telegram/thumbnail.webp')"></div>
+        
+        <div class="card-item-container">
+            <div class="card-inner-cell">
+                <!-- # Post Header Info # -->
+                <div class="card-header">
+                    
+    <h1 class="card-title h3 mb-2">使用 Telegram 收發 QQ 訊息</h1>
+
+
+
+
+<div class="post-header-info">
+    <p class="post-header-info-left text-gray">
+        <img class="author-thumb lazyload" data-src="/img/avatar.webp" src="/img/suka-lazyload.gif" alt="Mike Yuan's Avatar">
+        <span>2019-05-26</span>
+        
+        
+            <!-- Busuanzi Post Views -->
+<span id="busuanzi_container_page_pv" hidden>
+    <span class="suka-devide-dot"></span>
+    <span></span>
+    <span id="busuanzi_value_page_pv"></span>
+    <span>Views</span>
+</span>
+        
+        
+    </p>
+    <div class="post-header-info-right">
+        
+            <div class="dropdown dropdown-right">
+<a class="dropdown-toggle" tabindex="0">分享本文</a>
+<ul class="menu share-menu">
+    <!-- Share Weibo -->
+    
+
+    <!-- Share Twitter -->
+    
+    <li class="menu-item">
+        <a href="https://twitter.com/intent/tweet?text=使用 Telegram 收發 QQ 訊息&url=https://yhndnzj.com/2019/05/26/send-and-receive-messages-from-qq-on-telegram/&via=Mike Yuan" target="_blank" rel="external noopener noreferrer nofollow">分享到 Twitter</a>
+    </li>
+    
+
+    <!-- Share Facebook -->
+    
+    <li class="menu-item">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://yhndnzj.com/2019/05/26/send-and-receive-messages-from-qq-on-telegram/" target="_blank" rel="external noopener noreferrer nofollow">分享到 Facebook</a>
+    </li>
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+    <li class="menu-item">
+        <a href="http://connect.qq.com/widget/shareqq/index.html?site=YHNdnzj's Blog&title=YHNdnzj's Blog&summary=Mike Yuan 的個人小站&pics=/2019/05/24/send-and-receive-messages-from-wechat-on-telegram/thumbnail.webp&url=https://yhndnzj.com/2019/05/26/send-and-receive-messages-from-qq-on-telegram/" target="_blank" rel="external noopener noreferrer nofollow"> 分享到 QQ</a>
+    </li>
+    
+
+    <!-- Share Telegram -->
+    
+    <li class="menu-item">
+        <a href="https://t.me/share/url?url=https://yhndnzj.com/2019/05/26/send-and-receive-messages-from-qq-on-telegram/&text=YHNdnzj's Blog" target="_blank" rel="external noopener noreferrer nofollow">分享到 Telegram</a>
+    </li>
+    
+
+    <!-- QRCode -->
+    
+    <li class="menu-item">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAAAAAA83tqdAAACL0lEQVR42u2c0W6DQAwE+f+fbl/bivOOISjpeXipREgYJHznXa96fP2D4xBSSCGF/ADIozh+fn527dlv/LrJ4vfIfYWcDXn60gaws+tW0NX3qvNCzoYkP7wqir/nCCy5r5BCVovu6YsdHqxcqIUU8kbhdBbxswerHlZIIbsNxqogSHFU331pFyTkdpBJiD3196VqUchtIKNp1GxaUwP8iKsm5FaQyZhKQCvwToO8bLCFHAkZLwzwaXEmhbgsPiFHQlY3Xb38RHhVxj41x4ScCVm9uElIXRVoyRQTUsiO+Zka484GUW0UQs6FJC8//ZwMAGgAQMi5kJ3Coc1uZZq2NgchR0JWDS8JdnSEf0f0CSkkEVlE2JPhABZyQo6GpA1s1zCozK+qCRZyNiQxSkmwiQTr0gMJKSQ13ok5EMU+2AjQlFbIrSFTgCOZAET8d4N3QgpJmgUqqmjxEJEn5ExIMnwnDSs1+1ubhJCjIYkxlZqMqjCoCMNNr5DbQ9IQSAp1JrFGg81Czoa8EvjohJEeG4AKuT0kEV5JoHXOxWIUciQkCXgSoU8N17Swt6e0Qm4H2QkuJUGWQiR0cxBSyI5pnwZERJTRcJOQMyGvGPIp7ESEFlrshRwLSQyoboAkDVdRUE/I0ZBU4Fc3IyFPWqRCCkkFVCcQnwJRrQZDSCGP/M84OoP69IC3FnMht4SkjUPHYKWDrGXzIuRYyM4AqGOq3hlmCTkX8pMPIYUUUsg3Ht9mTraVcHmZ7wAAAABJRU5ErkJggg==" alt="QRCode">
+    </li>
+    
+
+</ul>
+</div>
+        
+    </div>
+</div>
+                </div>
+                <div class="card-body">
+                    
+                        
+                        
+                            <div id="post-toc"><ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E5%AE%89%E8%A3%9D"><span class="post-toc-number">1.</span> <span class="post-toc-text">安裝</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E4%BA%8C%E9%80%B2%E5%88%B6%E4%BE%9D%E8%B3%B4"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">二進制依賴</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E4%B8%BB%E9%AB%94"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">主體</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E8%A8%AD%E5%AE%9A"><span class="post-toc-number">2.</span> <span class="post-toc-text">設定</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#EFB"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">EFB</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#ETM"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">ETM</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E5%89%B5%E5%BB%BA-Telegram-Bot"><span class="post-toc-number">2.2.1.</span> <span class="post-toc-text">創建 Telegram Bot</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E5%BB%BA%E7%AB%8B%E8%A8%AD%E5%AE%9A%E6%AA%94"><span class="post-toc-number">2.2.2.</span> <span class="post-toc-text">建立設定檔</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#EQS"><span class="post-toc-number">2.3.</span> <span class="post-toc-text">EQS</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#CoolQ-Client"><span class="post-toc-number">2.3.1.</span> <span class="post-toc-text">CoolQ Client</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E4%B8%BB%E9%AB%94-1"><span class="post-toc-number">2.3.2.</span> <span class="post-toc-text">主體</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#systemd-%E5%AE%88%E8%AD%B7%E8%A1%8C%E7%A8%8B"><span class="post-toc-number">2.4.</span> <span class="post-toc-text">systemd 守護行程</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E9%81%8B%E8%A1%8C"><span class="post-toc-number">3.</span> <span class="post-toc-text">運行</span></a></li></ol></div>
+                        
+                    
+                    <article id="post-content">
+                        <blockquote>
+<p>2020/08/02: 由於 CoolQ 停止服務，此教學已經無法使用</p>
+<span id="more"></span>
+<p>本教學使用 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/blueset/ehForwarderBot">EFB</a>, <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/blueset/efb-telegram-master">ETM</a>, <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/milkice233/efb-qq-slave">EQS</a> 和 systemd 守護行程，支援 Ubuntu &gt;= 18.04 &amp; Debian &gt;= 10</p>
+</blockquote>
+<h2 id="安裝"><a href="#安裝" class="headerlink" title="安裝"></a>安裝</h2><p>建議先使用 <code># apt update &amp;&amp; apt upgrade -y</code> 更新所有軟體包</p>
+<h3 id="二進制依賴"><a href="#二進制依賴" class="headerlink" title="二進制依賴"></a>二進制依賴</h3><p><code># apt install -y python3-pip python3-wheel ffmpeg libmagic1 libwebp6</code></p>
+<h3 id="主體"><a href="#主體" class="headerlink" title="主體"></a>主體</h3><p><code># pip3 install ehforwarderbot efb-telegram-master efb-qq-slave</code></p>
+<h2 id="設定"><a href="#設定" class="headerlink" title="設定"></a>設定</h2><p><code># mkdir -p /etc/ehforwarderbot/profiles/qq/&#123;blueset.telegram,milkice.qq&#125;</code></p>
+<h3 id="EFB"><a href="#EFB" class="headerlink" title="EFB"></a>EFB</h3><p>創建 <code>/etc/ehforwarderbot/profiles/qq/config.yaml</code>，寫入以下內容</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">master_channel:</span> <span class="string">blueset.telegram</span></span><br><span class="line"><span class="attr">slave_channels:</span> </span><br><span class="line"><span class="bullet">-</span> <span class="string">milkice.qq</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="ETM"><a href="#ETM" class="headerlink" title="ETM"></a>ETM</h3><h4 id="創建-Telegram-Bot"><a href="#創建-Telegram-Bot" class="headerlink" title="創建 Telegram Bot"></a><a target="_blank" rel="noopener external nofollow noreferrer" href="https://blog.1a23.com/2017/01/09/EFB-How-to-Send-and-Receive-Messages-from-WeChat-on-Telegram-zh-CN/#0x030-%E5%88%9B%E5%BB%BA-Telegram-Bot">創建 Telegram Bot</a></h4><h4 id="建立設定檔"><a href="#建立設定檔" class="headerlink" title="建立設定檔"></a>建立設定檔</h4><p>創建 <code>/etc/ehforwarderbot/profiles/qq/blueset.telegram/config.yaml</code>，寫入以下內容</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">token:</span> <span class="string">&quot;TOKEN&quot;</span></span><br><span class="line"><span class="comment"># 將 TOKEN 替換爲在上一步獲得的 Token</span></span><br><span class="line"><span class="attr">admins:</span> </span><br><span class="line"><span class="bullet">-</span> <span class="string">ID</span></span><br><span class="line"><span class="comment"># 將 ID 替換爲在上一步獲得的 Telegram ID</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="EQS"><a href="#EQS" class="headerlink" title="EQS"></a>EQS</h3><h4 id="CoolQ-Client"><a href="#CoolQ-Client" class="headerlink" title="CoolQ Client"></a><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/milkice233/efb-qq-slave/blob/master/doc/CoolQ_zh-CN.rst#%E6%96%B9%E6%A1%88%E4%BA%8C%E6%89%8B%E5%8A%A8%E9%85%8D%E7%BD%AE---%E9%85%8D%E7%BD%AE-%E9%85%B7q-%E7%AB%AF%E7%AF%87">CoolQ Client</a></h4><h4 id="主體-1"><a href="#主體-1" class="headerlink" title="主體"></a>主體</h4><p>創建 <code>/etc/ehforwarderbot/profiles/qq/milkice.qq/config.yaml</code>，寫入以下內容</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">Client:</span> <span class="string">CoolQ</span></span><br><span class="line"><span class="attr">CoolQ:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">HTTP</span></span><br><span class="line">  <span class="attr">access_token:</span> <span class="string">ac0f790e1fb74ebcaf45da77a6f9de47</span></span><br><span class="line">  <span class="attr">api_root:</span> <span class="string">http://127.0.0.1:5700/</span></span><br><span class="line">  <span class="attr">host:</span> <span class="number">127.0</span><span class="number">.0</span><span class="number">.1</span></span><br><span class="line">  <span class="attr">port:</span> <span class="number">8000</span></span><br><span class="line">  <span class="attr">is_pro:</span> <span class="literal">false</span> <span class="comment"># 若使用 CoolQ Pro 則爲 true</span></span><br><span class="line">  <span class="attr">air_option:</span></span><br><span class="line">    <span class="attr">upload_to_smms:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="systemd-守護行程"><a href="#systemd-守護行程" class="headerlink" title="systemd 守護行程"></a>systemd 守護行程</h3><p>創建 <code>/etc/systemd/system/efb@.service</code>，寫入以下內容</p>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">[Unit]</span></span><br><span class="line"><span class="attr">Description</span>=EFB instance for profile %i</span><br><span class="line"><span class="attr">Documentation</span>=https://github.com/blueset/ehForwarderBot</span><br><span class="line"><span class="attr">Wants</span>=network-<span class="literal">on</span>line.target</span><br><span class="line"><span class="attr">After</span>=network-<span class="literal">on</span>line.target</span><br><span class="line"></span><br><span class="line"><span class="section">[Service]</span></span><br><span class="line"><span class="attr">PrivateTmp</span>=<span class="literal">true</span></span><br><span class="line"><span class="attr">ExecStart</span>=/usr/bin/python3 -m ehforwarderbot -p %i</span><br><span class="line"><span class="attr">Environment</span>=EFB_DATA_PATH=/etc/ehforwarderbot LANG=zh_CN.UTF-<span class="number">8</span></span><br><span class="line"><span class="attr">TimeoutStopSec</span>=<span class="number">10</span></span><br><span class="line"><span class="attr">Restart</span>=<span class="literal">on</span>-failure</span><br><span class="line"></span><br><span class="line"><span class="section">[Install]</span></span><br><span class="line"><span class="attr">WantedBy</span>=multi-user.target</span><br></pre></td></tr></table></figure>
+
+<h2 id="運行"><a href="#運行" class="headerlink" title="運行"></a>運行</h2><p><code># systemctl start efb@qq</code></p>
+<p>設定爲開機自啓動：<code># systemctl enable efb@qq</code></p>
+
+                    </article>
+                    
+    <blockquote class="post-license">
+        <p>
+            <strong>本文作者&nbsp;:&nbsp;Mike Yuan</strong>
+            <br>
+            <strong>
+            
+                本文协议 : <a href="http://creativecommons.org/licenses/by/4.0/" rel="external nofollow noreferrer" target="_blank">知识共享署名 4.0 国际许可协议</a>
+            </strong>
+            <br>
+            <strong>本文链接&nbsp;:&nbsp;</strong><a href="https://yhndnzj.com/2019/05/26/send-and-receive-messages-from-qq-on-telegram/">https://yhndnzj.com/2019/05/26/send-and-receive-messages-from-qq-on-telegram/</a>
+        </p>
+    </blockquote>
+
+
+
+    <blockquote id="date-expire-notification" class="post-expired-notify">本文最后更新于 <span id="date-expire-num"></span> 天前，文中所描述的信息可能已发生改变</blockquote>
+    <script>
+    (function() {
+        var dateUpdate = Date.parse("2020-08-05");
+        var nowDate = new Date();
+        var a = nowDate.getTime();
+        var b = a - dateUpdate;
+        var daysUpdateExpire = Math.floor(b/(24*3600*1000));
+        if (daysUpdateExpire >= 120) {
+            document.getElementById('date-expire-num').innerHTML = daysUpdateExpire;
+        } else {
+            document.getElementById('date-expire-notification').style.display = 'none';
+        }
+    })();
+    </script>
+
+
+<p class="post-footer-info mb-0 pt-0">本文发表于&nbsp;<time datetime="2019-05-26T03:54:31.000Z" itemprop="datePublished">2019-05-26</time>
+
+    , 最后修改于&nbsp;<time datetime="2020-08-05T00:06:33.000Z" itemprop="dateModified">2020-08-05</time>
+
+</p>
+<p class="post-footer-info mb-0 pt-2">
+
+
+
+<span class="post-tags-list mt-2">
+
+<a class="post-tags-list-item" href="/tags/linux/" rel="tag">#&nbsp;Linux</a>
+
+<a class="post-tags-list-item" href="/tags/systemd/" rel="tag">#&nbsp;systemd</a>
+
+<a class="post-tags-list-item" href="/tags/efb/" rel="tag">#&nbsp;EFB</a>
+
+</span>
+
+
+</p>
+
+                </div>
+                <div class="post-nav px-2 bg-gray">
+<ul class="pagination">
+    <!-- Prev Nav -->
+    
+        <li class="page-item page-prev">
+            <a href="/2019/09/13/btrfs-auto-snapshot/" rel="prev">
+                <div class="page-item-title"><i class="icon icon-back" aria-hidden="true"></i></div>
+                <div class="page-item-subtitle">Btrfs 自動創建 Snapshot</div>
+            </a>
+        </li>
+    
+
+    <!-- Next Nav -->
+    
+        <li class="page-item page-next">
+            <a href="/2019/05/24/send-and-receive-messages-from-wechat-on-telegram/" rel="next">
+                <div class="page-item-title"><i class="icon icon-forward" aria-hidden="true"></i></div>
+                <div class="page-item-subtitle">使用 Telegram 收發 WeChat 訊息</div>
+            </a>
+        </li>
+    
+</ul>
+</div>
+
+                
+                    <!-- # Comment # -->
+                    
+                        <div class="card-footer post-comment">
+                            <div id="disqus_thread"></div>
+
+<div class="btn_click_load"> 
+    <button id="disqus_click_btn" class="btn">阅读评论（请确保 disqus 可以正常加载）</button>
+</div>
+
+<script>
+    var disqus_config = function () {
+        this.page.url = 'https://yhndnzj.com/2019/05/26/send-and-receive-messages-from-qq-on-telegram/'; // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'https://yhndnzj.com/2019/05/26/send-and-receive-messages-from-qq-on-telegram/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+
+<script id="disqus-lazy-load-script">
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'https://disqus.com/next/config.json', true);
+    xhr.timeout = 4000;
+    xhr.send();
+    xhr.onload = function() {
+        if(this.status == 200||this.status == 304){
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//yhndnzjs-blog.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+            document.getElementById('disqus_click_btn').setAttribute("style", "display:none")
+        }
+    };
+    xhr.ontimeout = function(e) {
+        document.getElementById('disqus_click_btn').setAttribute("style", "display:block");
+    };
+    xhr.onerror = function(e) {
+        document.getElementById('disqus_click_btn').setAttribute("style", "display:block");
+    };
+    document.getElementById('disqus_click_btn').onclick=function() { //click to load comments
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//yhndnzjs-blog.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        document.getElementById('disqus_click_btn').setAttribute("style", "display:none")
+    };
+</script>
+
+                        </div>
+                    
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+            <!-- ### Footer ### -->
+            <footer class="text-center">
+    <!-- footer copyright -->
+    
+        <p class="footer-copyright mb-0">Copyright&nbsp;©&nbsp;<span id="copyright-year"></span>
+            <a class="footer-copyright-a" href="https://yhndnzj.com">YHNdnzj's Blog</a>
+        </p>
+
+    <!-- footer custom text -->
+    <p class="footer-text mb-0">
+    
+    </p>
+    <!-- footer develop info -->
+    <p class="footer-develop mb-0">
+        
+    <!-- Busuanzi User Views -->
+    <span id="busuanzi_container_site_uv" hidden>
+        <span></span>
+        <span id="busuanzi_value_site_uv"></span>
+        <span>Viewers</span>
+        
+            <span>|</span>
+        
+    </span>
+
+
+
+
+        
+        Powered by&nbsp;<!--
+         --><a href="https://hexo.io" target="_blank" class="footer-develop-a" rel="external nofollow noopener noreferrer">Hexo</a><span class="footer-develop-divider"></span>Theme&nbsp;-&nbsp;<!--
+         --><a href="https://github.com/SukkaW/hexo-theme-suka" target="_blank" class="footer-develop-a" rel="external noopener">Suka</a>
+    </p>
+</footer>
+
+
+        <!-- ### Import File ### -->
+        <!-- ### Footer JS Import ### -->
+
+<script>
+
+    
+window.lazyLoadOptions = {
+    elements_selector: ".lazyload",
+    threshold: 50
+};
+
+(function() {
+    var copyrightNow = new Date().getFullYear();
+    var copyrightContent = document.getElementById('copyright-year');
+    var copyrightSince = 2019;
+    if (copyrightSince === copyrightNow) {
+        copyrightContent.textContent = copyrightNow;
+    } else {
+        copyrightContent.textContent = copyrightSince + ' - ' + copyrightNow;
+    }
+})();
+console.log('\n %c Suka Theme (hexo-theme-suka) | © SukkaW | Verision 1.3.3 %c https://github.com/SukkaW/hexo-theme-suka \n', 'color: #fff; background: #444; padding:5px 0;', 'background: #bbb; padding:5px 0;');
+
+</script>
+
+<script src="/lib/vanilla-lazyload/lazyload.min.js" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.js" async></script>
+
+
+<!-- Offset -->
+
+
+
+
+<!-- Comment -->
+
+    
+        
+    
+
+
+<!-- ### Custom Footer ### -->
+
+    </body>
+
+</html>
